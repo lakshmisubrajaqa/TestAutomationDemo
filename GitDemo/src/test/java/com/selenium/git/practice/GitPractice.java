@@ -9,16 +9,17 @@ public class GitPractice {
 	WebDriver driver;
 	
 	@Test
-	
 	public void openBrowser() {
-		
-		
 		driver = new ChromeDriver();
 		driver.get("http://www.google.com/");
 		
-		
-		
 	}
 	
-	
+	@Test
+	public void openBrowser2() {
+		driver = new ChromeDriver();
+		driver.get("http://www.google.com/");
+		
+	}
 }
+
